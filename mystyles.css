@@ -184,6 +184,18 @@ h1 {
     font-weight: 600;
 }
 
+#Mission p {
+    margin-left: 10px;
+    margin-right: 10px;;
+    font-size: 1em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
 #Vision {
     margin: 0;
     position: absolute;
@@ -210,4 +222,138 @@ h1 {
     display: flex;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 600;
+}
+
+#Vision p {
+    margin-left: 10px;
+    margin-right: 10px;;
+    font-size: 1em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
+/* ProMe */
+#TimeManagementTips {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    height: 15%;
+    width: 80%;
+    opacity: 90%;
+    background-color: #CBC5C9;
+}
+
+#TimeManagementTips h2 {
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+#TimeManagementTips p {
+    margin-left: 10px;
+    margin-right: 10px;;
+    font-size: 1em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
+
+#LearnSkills {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    height: 15%;
+    width: 80%;
+    opacity: 90%;
+    background-color: #CBC5C9;
+}
+
+#LearnSkills h2 {
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+#LearnSkills p {
+    margin-left: 10px;
+    margin-right: 10px;;
+    font-size: 1em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
+#Chill {
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    height: 15%;
+    width: 80%;
+    opacity: 90%;
+    background-color: #CBC5C9;
+}
+
+#Chill h2 {
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+#Chill p {
+    margin-left: 10px;
+    margin-right: 10px;;
+    font-size: 1em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    color: black;
 }
