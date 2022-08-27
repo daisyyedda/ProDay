@@ -5,8 +5,80 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chill</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="mystyles.css">
 </head>
+<style>
+  body {
+    background-image: url("all-images/aboutus-pg.png");
+  }
+  
+  section {
+      width: 350px;
+      height: 500px;
+      left: 80px;
+      top: 200px;
+  
+      background: #FFFFFF;
+      box-shadow: 0px 5px 4px #D8D8D8;
+      border-radius: 20px;
+      margin-left: 10px;
+      margin-top: 100px;
+  }
+  
+  .title1, .title2, .title3 {
+      background: #2e948a;
+      border-radius: 7px;
+      height: 40px;
+  
+      font-family: Roboto;
+      font-size: 28px;
+      line-height: 39px;
+      text-align: center;
+  
+      color: #FFFFFF;
+  }
+  
+  .content1, .content2, .content3 {
+    padding: 20px 10px 10px 50px;
+      font-family: Roboto;
+      font-size: 26px;
+      line-height: 30px;
+      color: #00030D;
+      width: 300px;
+      height: 236px;
+      left: 476px;
+      top: 235px;
+  }
+  
+  @media (min-width: 992px) {
+      .col-lg-5 {
+          float: left;
+      }
+      .col-lg-5 {
+          width: 33%;
+      }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+      .col-md-6 {
+          float: left;
+      }
+      .col-md-6 {
+          width: 50%;
+      }
+  }
+  
+  @media (max-width: 767px) {
+    .col-sm-12 {
+          float: left;
+      }
+      .col-sm-12 {
+          width: 100%;
+      }
+  }
+</style>
+
 <body>
   <nav id="navbar">
     <ul>
@@ -18,9 +90,58 @@
       <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
-  <div>
-    <img src="bg.jpeg" alt="coronavirus">
-  </div>
+  <div class = "col-lg-5 col-md-6 col-sm-12">
+		<section>
+      <h2 class = 'title1'>Jigsaw</h2>
+      <br>
+      <audio controls>
+        <source src="Chris Madin - Jigsaw.mp3">
+      </audio>
+			<p class = 'content1'>
+				<img src="jigsaw.jpeg" class="card-img-top" alt="ClickUp Logo">
+				<br>
+        <br>
+        Artist: Chris Madin
+        <br>
+        <br>
+				Click the song to listen to music....
+			</p>
+		</section>
+	</div>
+
+	<div class = "col-lg-5 col-md-6 col-sm-12">
+		<section>
+      <h2 class = 'title2'>Vale of Tears</h2>
+      <audio controls>
+        <source src="Jay Clifford - Vale Of Tears.mp3">
+      </audio>
+			<p class = 'content2'>
+        Artist: Jay Clifford
+        <br>
+        <br>
+				Click the song to listen to music....
+        <br>
+				<img src="vale.jpeg" class="card-img-top" alt="Friday Logo">
+			</p>
+		</section>
+	</div>
+
+	<div class = "col-lg-5 col-md-6 col-sm-12">
+		<section>
+      <h2 class = 'title3'>Glimpse of Us</h2>
+      <audio controls>
+        <source src="Joji - Glimpse of Us.mp3">
+      </audio>
+			<p class = 'content3'>
+        Artist: Joli
+        <br>
+        <br>
+				Click the song to listen to music....
+        <br>
+        <img src="glimpse.png" class="card-img-bottom" alt="Toggl Logo">
+			</p>
+		</section>
+	</div>
 
 </body>
 </html>
