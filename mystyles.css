@@ -1,6 +1,6 @@
-/* navbar  */
+/* navbar */
 html { 
-    background: url(bg.jpeg) no-repeat center center fixed;
+    background: url(bg.jpeg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -67,10 +67,8 @@ html {
 
 
 #navbar a:active { text-decoration: none; }
-/* navbar */
 
-
-/* Homepage "ProDay" */
+/* homepage */
 h1 {
     height: 100vh;
     display: flex;
@@ -82,18 +80,134 @@ h1 {
     color: white;
 }
 
-
-/* aboutus */
-#WhoWeAre {
-    position: relative;
-    left: 
-
+/* Contact Us */
+#contact ul{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 750px;
+    height: 250px;
+    opacity: 90%;
+    background-color: #CBC5C9;
 }
 
-#Mission {
+#contact li p{
+    left: 10px;
+    opacity:100%;
+    display: block;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: white;
+}
 
+/* About Us */
+#WhoWeAre {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 20%;
+    height: 500px;
+    opacity: 90%;
+    background-color: #CBC5C9;
+}
+
+#WhoWeAre h2 {
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+#WhoWeAre p {
+    margin-left: 10px;
+    margin-right: 10px;;
+    font-size: 1em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
+
+
+#Mission {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 20%;
+    height: 500px;
+    opacity: 90%;
+    background-color: #CBC5C9;
+}
+
+#Mission h2 {
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
 }
 
 #Vision {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 20%;
+    height: 500px;
+    opacity: 90%;
+    background-color: #CBC5C9;
+}
 
+#Vision h2 {
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
 }
