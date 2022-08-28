@@ -2,6 +2,8 @@
 This is a project for TechNova 2022.
 Website: https://emmayly.github.io/ProDay/
 
+<img width="1440" alt="Screen Shot 2022-08-28 at 1 26 38 PM" src="https://user-images.githubusercontent.com/93347757/187086844-afb820bc-c8e2-4c6a-95f7-622234e1a0e0.png">
+
 ## Inspiration
 Covid-19 has been negatively impacting people's lives in all aspects. News and stories around raised our awareness about the mental health problems and potential domestic abuses due to anxiety-inducing lockdowns. Thus, we are trying to figure out ways to help people stay mentally relaxed and be more productive when studying/working remotely.
 
