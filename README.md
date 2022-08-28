@@ -1,5 +1,4 @@
 # ProDay
-
 This is a project for TechNova 2022.
 Website: https://emmayly.github.io/uwmath-simulator/
 
