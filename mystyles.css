@@ -253,7 +253,8 @@ h1 {
     height: 15%;
     width: 80%;
     opacity: 90%;
-    background-color: #CBC5C9;
+    background-color: white;
+    border-radius: 7px;
 }
 
 #TimeManagementTips h2 {
@@ -294,7 +295,8 @@ h1 {
     height: 15%;
     width: 80%;
     opacity: 90%;
-    background-color: #CBC5C9;
+    background-color: white;
+    border-radius: 7px;
 }
 
 #LearnSkills h2 {
@@ -334,7 +336,8 @@ h1 {
     height: 15%;
     width: 80%;
     opacity: 90%;
-    background-color: #CBC5C9;
+    background-color: white;
+    border-radius: 7px;
 }
 
 #Chill h2 {
