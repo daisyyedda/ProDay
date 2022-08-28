@@ -129,7 +129,7 @@ h1 {
     padding: 0;
     display: block;
     width: 20%;
-    height: 500px;
+    height: 300px;
     background-color: white;
     border-radius: 7px;
 }
@@ -146,8 +146,9 @@ h1 {
 #WhoWeAre p {
     margin-left: 10px;
     margin-right: 10px;;
-    font-size: 1em;
+    font-size: 1.1em;
     justify-content: center;
+    text-align: center;
     align-items: center;
     display: flex;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -169,7 +170,7 @@ h1 {
     padding: 0;
     display: block;
     width: 20%;
-    height: 500px;
+    height: 300px;
     background-color: white;
     border-radius: 7px;
 }
@@ -186,8 +187,9 @@ h1 {
 #Mission p {
     margin-left: 10px;
     margin-right: 10px;;
-    font-size: 1em;
+    font-size: 1.5em;
     justify-content: center;
+    text-align: center;
     align-items: center;
     display: flex;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -209,7 +211,7 @@ h1 {
     padding: 0;
     display: block;
     width: 20%;
-    height: 500px;
+    height: 300px;
     background-color: white;
     border-radius: 7px;
 }
@@ -226,7 +228,8 @@ h1 {
 #Vision p {
     margin-left: 10px;
     margin-right: 10px;;
-    font-size: 1em;
+    font-size: 1.6em;
+    text-align: center;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -250,14 +253,14 @@ h1 {
     padding: 0;
     display: block;
     height: 15%;
-    width: 80%;
+    width: 50%;
     opacity: 90%;
     background-color: white;
     border-radius: 7px;
 }
 
 #TimeManagementTips h2 {
-    font-size: 1.5em;
+    font-size: 2.5em;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -265,17 +268,6 @@ h1 {
     font-weight: 600;
 }
 
-#TimeManagementTips p {
-    margin-left: 10px;
-    margin-right: 10px;;
-    font-size: 1em;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 400;
-    color: black;
-}
 
 
 #LearnSkills {
@@ -292,14 +284,14 @@ h1 {
     padding: 0;
     display: block;
     height: 15%;
-    width: 80%;
+    width: 50%;
     opacity: 90%;
     background-color: white;
     border-radius: 7px;
 }
 
 #LearnSkills h2 {
-    font-size: 1.5em;
+    font-size: 2.5em;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -307,17 +299,6 @@ h1 {
     font-weight: 600;
 }
 
-#LearnSkills p {
-    margin-left: 10px;
-    margin-right: 10px;;
-    font-size: 1em;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 400;
-    color: black;
-}
 
 #Chill {
     margin: 0;
@@ -333,14 +314,14 @@ h1 {
     padding: 0;
     display: block;
     height: 15%;
-    width: 80%;
+    width: 50%;
     opacity: 90%;
     background-color: white;
     border-radius: 7px;
 }
 
 #Chill h2 {
-    font-size: 1.5em;
+    font-size: 2.5em;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -348,14 +329,3 @@ h1 {
     font-weight: 600;
 }
 
-#Chill p {
-    margin-left: 10px;
-    margin-right: 10px;;
-    font-size: 1em;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 400;
-    color: black;
-}
