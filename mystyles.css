@@ -97,7 +97,8 @@ h1 {
     width: 750px;
     height: 250px;
     opacity: 90%;
-    background-color: #CBC5C9;
+    background-color: white;
+    border-radius: 7px;
 }
 
 #contact li p{
@@ -110,7 +111,7 @@ h1 {
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 600;
-    color: white;
+    color: black;
 }
 
 /* About Us */
@@ -129,8 +130,8 @@ h1 {
     display: block;
     width: 20%;
     height: 500px;
-    opacity: 90%;
-    background-color: #CBC5C9;
+    background-color: white;
+    border-radius: 7px;
 }
 
 #WhoWeAre h2 {
@@ -154,8 +155,6 @@ h1 {
     color: black;
 }
 
-
-
 #Mission {
     margin: 0;
     position: absolute;
@@ -171,8 +170,8 @@ h1 {
     display: block;
     width: 20%;
     height: 500px;
-    opacity: 90%;
-    background-color: #CBC5C9;
+    background-color: white;
+    border-radius: 7px;
 }
 
 #Mission h2 {
@@ -211,8 +210,8 @@ h1 {
     display: block;
     width: 20%;
     height: 500px;
-    opacity: 90%;
-    background-color: #CBC5C9;
+    background-color: white;
+    border-radius: 7px;
 }
 
 #Vision h2 {
