@@ -41,7 +41,7 @@ html {
 #navbar a {
     width: 140px;
     font-size: 1.3rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: monospace;
     font-weight: 600;
     color: var(--body-font-color);
     display: block;
@@ -68,6 +68,8 @@ html {
 
 #navbar a:active { text-decoration: none; }
 
+
+
 /* homepage */
 h1 {
     height: 100vh;
@@ -75,10 +77,12 @@ h1 {
     justify-content: center;
     align-items: center;
     font-size: 100px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: monospace;
     font-weight: 600;
     color: white;
 }
+
+
 
 /* Contact Us */
 #contact ul{
@@ -108,8 +112,8 @@ h1 {
     justify-content: center;
     position: relative;
     align-items: center;
-    font-size: 25px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-family: monospace;
     font-weight: 600;
     color: black;
 }
@@ -135,23 +139,23 @@ h1 {
 }
 
 #WhoWeAre h2 {
-    font-size: 1.5em;
+    font-size: 2em;
     justify-content: center;
     align-items: center;
     display: flex;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: monospace;
     font-weight: 600;
 }
 
 #WhoWeAre p {
     margin-left: 10px;
     margin-right: 10px;;
-    font-size: 1.1em;
+    font-size: 1.2em;
     justify-content: center;
     text-align: center;
     align-items: center;
     display: flex;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: monospace;
     font-weight: 400;
     color: black;
 }
@@ -176,23 +180,23 @@ h1 {
 }
 
 #Mission h2 {
-    font-size: 1.5em;
+    font-size: 2em;
     justify-content: center;
     align-items: center;
     display: flex;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: monospace;
     font-weight: 600;
 }
 
 #Mission p {
     margin-left: 10px;
     margin-right: 10px;;
-    font-size: 1.5em;
+    font-size: 1.6em;
     justify-content: center;
     text-align: center;
     align-items: center;
     display: flex;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: monospace;
     font-weight: 400;
     color: black;
 }
@@ -217,23 +221,23 @@ h1 {
 }
 
 #Vision h2 {
-    font-size: 1.5em;
+    font-size: 2em;
     justify-content: center;
     align-items: center;
     display: flex;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: monospace;
     font-weight: 600;
 }
 
 #Vision p {
     margin-left: 10px;
     margin-right: 10px;;
-    font-size: 1.6em;
+    font-size: 1.7em;
     text-align: center;
     justify-content: center;
     align-items: center;
     display: flex;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: monospace;
     font-weight: 400;
     color: black;
 }
@@ -260,11 +264,11 @@ h1 {
 }
 
 #TimeManagementTips h2 {
-    font-size: 2.5em;
+    font-size: 3em;
     justify-content: center;
     align-items: center;
     display: flex;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: monospace;
     font-weight: 600;
 }
 
@@ -291,11 +295,11 @@ h1 {
 }
 
 #LearnSkills h2 {
-    font-size: 2.5em;
+    font-size: 3em;
     justify-content: center;
     align-items: center;
     display: flex;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: monospace;
     font-weight: 600;
 }
 
@@ -321,11 +325,302 @@ h1 {
 }
 
 #Chill h2 {
-    font-size: 2.5em;
+    font-size: 3em;
     justify-content: center;
     align-items: center;
     display: flex;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: monospace;
     font-weight: 600;
 }
 
+/* happiness tips */
+#no1 {
+    margin: 0;
+    position: absolute;
+    top: 31%;
+    left: 18%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 30%;
+    height: 170px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+#no1 h2 {
+    font-size: 2em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+#no1 p {
+    margin-left: 10px;
+    margin-right: 10px;;
+    font-size: 1.5em;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    font-family: monospace;
+    font-weight: 400;
+    color: black;
+}
+
+#no2 {
+    margin: 0;
+    position: absolute;
+    top: 31%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 30%;
+    height: 170px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+#no2 h2 {
+    font-size: 2em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+#no2 p {
+    margin-left: 10px;
+    margin-right: 10px;;
+    font-size: 1.5em;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    font-family: monospace;
+    font-weight: 400;
+    color: black;
+}
+
+
+#no3 {
+    margin: 0;
+    position: absolute;
+    top: 31%;
+    left: 82%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 30%;
+    height: 170px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+#no3 h2 {
+    font-size: 2em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+#no3 p {
+    margin-left: 10px;
+    margin-right: 10px;;
+    font-size: 1.5em;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    font-family: monospace;
+    font-weight: 400;
+    color: black;
+}
+
+#no4 {
+    margin: 0;
+    position: absolute;
+    top: 55%;
+    left: 18%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 30%;
+    height: 170px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+#no4 h2 {
+    font-size: 2em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+#no4 p {
+    margin-left: 10px;
+    margin-right: 10px;;
+    font-size: 1.5em;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    font-family: monospace;
+    font-weight: 400;
+    color: black;
+}
+
+#no5 {
+    margin: 0;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 30%;
+    height: 170px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+#no5 h2 {
+    font-size: 2em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+#no5 p {
+    margin-left: 10px;
+    margin-right: 10px;;
+    font-size: 1.5em;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    font-family: monospace;
+    font-weight: 400;
+    color: black;
+}
+
+
+#no6 {
+    margin: 0;
+    position: absolute;
+    top: 55%;
+    left: 82%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 30%;
+    height: 170px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+#no6 h2 {
+    font-size: 2em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+#no6 p {
+    margin-left: 10px;
+    margin-right: 10px;;
+    font-size: 1.5em;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    font-family: monospace;
+    font-weight: 400;
+    color: black;
+}
+
+
+
+#no7 {
+    margin: 0;
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 94%;
+    height: 210px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+#no7 h2 {
+    font-size: 2em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+#no7 p {
+    margin-left: 10px;
+    margin-right: 10px;;
+    font-size: 1.5em;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    font-family: monospace;
+    font-weight: 400;
+    color: black;
+}
