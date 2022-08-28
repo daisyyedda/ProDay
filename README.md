@@ -1,6 +1,6 @@
 # ProDay
 This is a project for TechNova 2022.
-Website: https://emmayly.github.io/uwmath-simulator/
+Website: https://emmayly.github.io/ProDay/
 
 ## Inspiration
 Covid-19 has been negatively impacting people's lives in all aspects. News and stories around raised our awareness about the mental health problems and potential domestic abuses. Thus, we are trying to figure out ways to help people stay mentally relaxed and be more productive when studying/working remotely.
