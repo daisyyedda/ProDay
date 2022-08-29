@@ -13,15 +13,6 @@ ProDay is an informative website to help people live a better life during the ha
 ## How we built it
 We firstly brainstormed different ideas in several dimensions and eventually narrowed down our topic to COVID-19 mental health. Based on this initial scheme, we utilized Figma to draft the layout of the website, containing four main informative pages and three subpages in ProMe part. Then we used HTML and CSS to develop our website with the help of GitHub to achieve collaboration. 
 
-## Challenges we ran into
-Due to different coding styles, sometimes team members were unable to understand others' code properly and this led to some duplicated work and lag the progress while having strict time limitation. Eventually, we communicate with each other closely and keep every member updated about each change made.
-
-## Accomplishments that we're proud of
-We add the hover effect to decorate the website. We add css features that enable the website page still readable when zoom in the window's size. 
-
-## What we learned
-Through this project, we learned the importance of planning ahead and strictly follow our plans to finish a time-limited task. Also, when encountering a problem, we learned how to use resources available to figure out suitable ways to solve that issues. 
-
 ## What's next for ProDay
 The next step for ProDay is to implement personalized tips and recommandations for users. We are planning to develop some multiple choice questions to gather data about users' sources of stress, personal charateristics, and daily habits. Based such data, we can give more precise advice on time management  and happiness tips. Moreover, we are seeking ways to update the newest music to the website periodically.
 
